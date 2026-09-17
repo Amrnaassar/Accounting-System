@@ -13,7 +13,7 @@ A desktop accounting and business management application built with **C# Windows
 
 The following screenshots showcase the main screens and workflows of the accounting system.
 
-![Screenshot 1](docs/screenshots/1.PNG)
+![Screenshot 1](docs/screenshots/1.png)
 
 ![Screenshot 2](docs/screenshots/2.PNG)
 
