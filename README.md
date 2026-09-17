@@ -13,37 +13,37 @@ A desktop accounting and business management application built with **C# Windows
 
 The following screenshots showcase the main screens and workflows of the accounting system.
 
-![Screenshot 1](docs/screenshots/1.png)
+![Screenshot 1](docs/screenshots/1.PNG)
 
-![Screenshot 2](docs/screenshots/2.png)
+![Screenshot 2](docs/screenshots/2.PNG)
 
-![Screenshot 3](docs/screenshots/3.png)
+![Screenshot 3](docs/screenshots/3.PNG)
 
-![Screenshot 4](docs/screenshots/4.png)
+![Screenshot 4](docs/screenshots/4.PNG)
 
-![Screenshot 5](docs/screenshots/5.png)
+![Screenshot 5](docs/screenshots/5.PNG)
 
-![Screenshot 6](docs/screenshots/6.png)
+![Screenshot 6](docs/screenshots/6.PNG)
 
-![Screenshot 7](docs/screenshots/7.png)
+![Screenshot 7](docs/screenshots/7.PNG)
 
-![Screenshot 8](docs/screenshots/8.png)
+![Screenshot 8](docs/screenshots/8.PNG)
 
-![Screenshot 9](docs/screenshots/9.png)
+![Screenshot 9](docs/screenshots/9.PNG)
 
-![Screenshot 10](docs/screenshots/10.png)
+![Screenshot 10](docs/screenshots/10.PNG)
 
-![Screenshot 11](docs/screenshots/11.png)
+![Screenshot 11](docs/screenshots/11.PNG)
 
-![Screenshot 12](docs/screenshots/12.png)
+![Screenshot 12](docs/screenshots/12.PNG)
 
-![Screenshot 13](docs/screenshots/13.png)
+![Screenshot 13](docs/screenshots/13.PNG)
 
-![Screenshot 14](docs/screenshots/14.png)
+![Screenshot 14](docs/screenshots/14.PNG)
 
-![Screenshot 15](docs/screenshots/15.png)
+![Screenshot 15](docs/screenshots/15.PNG)
 
-![Screenshot 16](docs/screenshots/16.png)
+![Screenshot 16](docs/screenshots/16.PNG)
 
 ---
 
