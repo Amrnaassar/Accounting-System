@@ -9,57 +9,41 @@ A desktop accounting and business management application built with **C# Windows
 
 ---
 
-## 📸 Application Preview
+## 📸 Application Screenshots
 
-The screenshots below are placeholders for the application screenshots that will be added to the repository.
+The following screenshots showcase the main screens and workflows of the accounting system.
 
-### Login
+![Screenshot 1](docs/screenshots/1.png)
 
-<!-- Add screenshot: docs/screenshots/login.png -->
+![Screenshot 2](docs/screenshots/2.png)
 
-![Login](docs/screenshots/login.png)
+![Screenshot 3](docs/screenshots/3.png)
 
-### Main Dashboard
+![Screenshot 4](docs/screenshots/4.png)
 
-<!-- Add screenshot: docs/screenshots/dashboard.png -->
+![Screenshot 5](docs/screenshots/5.png)
 
-![Main Dashboard](docs/screenshots/dashboard.png)
+![Screenshot 6](docs/screenshots/6.png)
 
-### Sales & Invoicing
+![Screenshot 7](docs/screenshots/7.png)
 
-<!-- Add screenshot: docs/screenshots/invoice.png -->
+![Screenshot 8](docs/screenshots/8.png)
 
-![Invoice Management](docs/screenshots/invoice.png)
+![Screenshot 9](docs/screenshots/9.png)
 
-### Products & Inventory
+![Screenshot 10](docs/screenshots/10.png)
 
-<!-- Add screenshot: docs/screenshots/products.png -->
+![Screenshot 11](docs/screenshots/11.png)
 
-![Products and Inventory](docs/screenshots/products.png)
+![Screenshot 12](docs/screenshots/12.png)
 
-### Customers
+![Screenshot 13](docs/screenshots/13.png)
 
-<!-- Add screenshot: docs/screenshots/customers.png -->
+![Screenshot 14](docs/screenshots/14.png)
 
-![Customer Management](docs/screenshots/customers.png)
+![Screenshot 15](docs/screenshots/15.png)
 
-### Financial Management
-
-<!-- Add screenshot: docs/screenshots/financial.png -->
-
-![Financial Management](docs/screenshots/financial.png)
-
-### VAT Management
-
-<!-- Add screenshot: docs/screenshots/vat.png -->
-
-![VAT Management](docs/screenshots/vat.png)
-
-### Reports
-
-<!-- Add screenshot: docs/screenshots/reports.png -->
-
-![Reports](docs/screenshots/reports.png)
+![Screenshot 16](docs/screenshots/16.png)
 
 ---
 
@@ -204,8 +188,6 @@ The main shell dynamically loads feature forms into the central application pane
 | **NumberToWord** | Converting invoice totals to words |
 | **log4net** | Logging support |
 
-The project configuration targets .NET Framework 4.7.2 and uses Windows Forms with SQL Server connectivity. The project also includes Bunifu UI WinForms and Crystal Reports dependencies. fileciteturn6file0
-
 ---
 
 ## 🔄 Typical Invoice Workflow
@@ -236,7 +218,7 @@ Save Invoice
 Generate / View Report
 ```
 
-The invoice workflow includes customer and item search, invoice item selection, discount handling, VAT calculations, total calculation, and conversion of the final amount into Arabic words. fileciteturn8file0
+The invoice workflow includes customer and item search, invoice item selection, discount handling, VAT calculations, total calculation, and conversion of the final amount into Arabic words.
 
 ---
 
@@ -258,8 +240,6 @@ Initial Catalog=ShopDB
 Integrated Security=True
 MultipleActiveResultSets=true
 ```
-
-The connection is defined in `ConnectDB.cs`. fileciteturn9file0
 
 > **Important:** A database backup/schema is not currently included in this repository. Before running the application on another machine, make sure the required `ShopDB` database and its tables are available and update the connection string if your SQL Server instance is different.
 
@@ -284,19 +264,10 @@ git clone https://github.com/Amrnaassar/Accounting-System.git
 ```
 
 2. Open the solution/project in Visual Studio.
-
 3. Restore the project dependencies/packages.
-
 4. Make sure SQL Server Express is installed and the required `ShopDB` database is available.
-
-5. If necessary, update the database connection in:
-
-```text
-ConnectDB.cs
-```
-
+5. If necessary, update the database connection in `ConnectDB.cs`.
 6. Build the project.
-
 7. Run the application from Visual Studio.
 
 ---
@@ -311,7 +282,7 @@ For production or distributed environments, database configuration should ideall
 
 ## 📊 Reporting
 
-The project integrates **Crystal Reports** for report generation. Report definitions currently exist alongside the application code, including payment and receipt report files.
+The project integrates **Crystal Reports** for report generation, including payment and receipt report definitions.
 
 This allows accounting operations to be presented in printable/report-oriented formats from the desktop application.
 
@@ -342,7 +313,14 @@ Accounting-System/
 │
 ├── *.Designer.cs
 ├── *.resx
-└── *.rpt
+├── *.rpt
+│
+└── docs/
+    └── screenshots/
+        ├── 1.png
+        ├── 2.png
+        ├── ...
+        └── 16.png
 ```
 
 ---
